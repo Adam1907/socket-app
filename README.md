@@ -1,1 +1,2 @@
-"# socket-app" 
+"Socket Chat" 
+Jednoduchý webový chat  
