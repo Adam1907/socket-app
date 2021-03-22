@@ -10,5 +10,5 @@ send.addEventListener('click', function(e) {
 
 socket.on('chat', msg => {
     console.log(msg);
-    chatBox.innerHTML += `<div>Anonym:${msg}</div>`;
+    chatBox.innerHTML += `<div>User: ${msg}</div>`;
 });
