@@ -18,6 +18,7 @@ io.on('connection', (socket) => {
 })
 
 const PORT = process.env.PORT || 5000;
+
 server.listen(PORT, function() {
     console.log(`Server nasloucha na portu ${PORT}`);
 })
